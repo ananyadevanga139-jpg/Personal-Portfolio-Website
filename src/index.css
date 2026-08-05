@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+
+  margin: 0;
+
+  background: #020617;
+
+  color: white;
+
+  font-family:
+  Inter,
+  system-ui,
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  sans-serif;
+
+  overflow-x: hidden;
+
+}
+
+
+
+::selection {
+
+background:#22d3ee;
+
+color:#020617;
+
+}
+
+
+
+.glass {
+
+background: rgba(255,255,255,0.05);
+
+backdrop-filter: blur(20px);
+
+border:1px solid rgba(255,255,255,0.1);
+
+}
+
+
+
+.gradient-text {
+
+background: linear-gradient(
+90deg,
+#22d3ee,
+#3b82f6,
+#a855f7
+);
+
+-webkit-background-clip:text;
+
+color:transparent;
+
+}
