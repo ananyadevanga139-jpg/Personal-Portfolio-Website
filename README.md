@@ -20,7 +20,8 @@ A modern, responsive, and interactive personal portfolio website designed to sho
 
 🚀 Portfolio Website:
 
-https://personal-portfolio-website-r80y3p6a0-ananya-3073.vercel.app
+
+https://personal-portfolio-website-beryl-seven.vercel.app/
 
 
 ---
