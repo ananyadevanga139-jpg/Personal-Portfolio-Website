@@ -1,315 +1,137 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight } from "lucide-react";
-import { projects } from "../data/projects";
 
 
 function Projects(){
+
+const projects = [
+{
+title:"AI Task Management System",
+description:
+"AI-powered full-stack task management application with authentication, task tracking, and workflow management.",
+tech:"React • TypeScript • Node.js • Express • PostgreSQL",
+link:"https://github.com/ananyadevanga139-jpg/AI-Task-Management-System"
+},
+
+{
+title:"AgroPredict - Crop Recommendation System",
+description:
+"Machine learning based crop recommendation system that helps users select suitable crops using agricultural data.",
+tech:"Python • Flask • Machine Learning",
+link:"https://github.com/ananyadevanga139-jpg/AgroPredict-Crop-Recommendation-System"
+},
+
+{
+title:"Multiple Disease Prediction System",
+description:
+"AI healthcare prediction system using machine learning and deep learning models for disease prediction.",
+tech:"Python • TensorFlow • Keras • OpenCV",
+link:"https://github.com/ananyadevanga139-jpg/Multiple-Disease-Prediction-System"
+}
+
+];
 
 
 return (
 
 <section
 id="projects"
-className="
-py-32
-"
+className="py-24 px-6"
 >
 
+<div className="max-w-7xl mx-auto">
 
-<div
-className="
-max-w-7xl
-mx-auto
-px-6
-"
->
-
-
-<motion.div
-
-initial={{
-opacity:0,
-y:40
-}}
-
-whileInView={{
-opacity:1,
-y:0
-}}
-
-transition={{
-duration:0.6
-}}
-
-className="
-text-center
-mb-20
-"
-
->
-
-
-<p
-className="
-text-cyan-400
-text-lg
-mb-4
-"
-
->
-
-My Work
-
-</p>
-
-
-<h2
-
-className="
-text-5xl
+<h2 className="
+text-4xl
 font-bold
-"
-
->
-
-Featured Projects
-
+gradient-text
+mb-12
+text-center
+">
+Projects
 </h2>
 
 
-
-<p
-
-className="
-text-gray-400
-max-w-2xl
-mx-auto
-mt-5
-text-lg
-"
-
->
-
-AI-powered and full-stack applications
-developed to solve real-world problems.
-
-</p>
-
-
-</motion.div>
-
-
-
-
-
-<div
-
-className="
+<div className="
 grid
-md:grid-cols-2
-lg:grid-cols-3
-gap-10
-"
-
->
-
+md:grid-cols-3
+gap-8
+">
 
 
 {
-
 projects.map((project,index)=>(
 
+<motion.div
 
-<motion.a
+key={index}
 
-
-key={project.title}
-
-
-href={project.link}
-
-target="_blank"
-
-rel="noreferrer"
-
-
-
-initial={{
-
-opacity:0,
-
-y:50
-
+whileHover={{
+scale:1.05
 }}
-
-
-
-whileInView={{
-
-opacity:1,
-
-y:0
-
-}}
-
-
-
-transition={{
-
-duration:0.6,
-
-delay:index*0.15
-
-}}
-
-
 
 className="
-group
 glass
-rounded-3xl
-overflow-hidden
-hover:-translate-y-3
-transition
-duration-500
-"
-
-
->
-
-
-
-
-{/* PROJECT IMAGE */}
-
-
-
-<div
-
-className="
-overflow-hidden
+p-6
+rounded-2xl
 "
 
 >
 
 
-<img
-
-src={project.image}
-
-alt={project.title}
-
-className="
-w-full
-h-64
-object-cover
-group-hover:scale-110
-transition
-duration-700
-"
-
-/>
-
-
-</div>
-
-
-
-
-
-{/* CONTENT */}
-
-
-
-<div
-
-className="
-p-8
-"
-
->
-
-
-<p
-
-className="
-text-cyan-400
-font-semibold
-mb-3
-"
-
->
-
-0{index+1}
-
-</p>
-
-
-
-<h3
-
-className="
+<h3 className="
 text-2xl
 font-bold
 mb-4
-group-hover:text-cyan-400
-transition
-"
-
->
+">
 
 {project.title}
 
 </h3>
 
 
-
-
-
-<p
-
-className="
+<p className="
 text-gray-400
-leading-relaxed
-"
-
->
+mb-4
+">
 
 {project.description}
 
 </p>
 
 
-
-
-
-<div
-
-className="
-flex
-items-center
-gap-2
-mt-6
+<p className="
 text-cyan-400
-font-semibold
-"
+mb-5
+">
 
+{project.tech}
+
+</p>
+
+
+<a
+href={project.link}
+target="_blank"
+rel="noreferrer"
+className="
+text-white
+border
+border-cyan-400
+px-5
+py-2
+rounded-full
+hover:bg-cyan-400
+hover:text-black
+transition
+"
 >
 
-View Live Project
+View Project
 
-<ArrowUpRight size={18}/>
-
-</div>
+</a>
 
 
-
-</div>
-
-
-
-</motion.a>
-
+</motion.div>
 
 
 ))
@@ -317,16 +139,13 @@ View Live Project
 }
 
 
-
 </div>
-
 
 
 </div>
 
 
 </section>
-
 
 )
 

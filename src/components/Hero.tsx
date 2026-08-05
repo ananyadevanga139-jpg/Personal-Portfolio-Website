@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaArrowRight, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaArrowRight, FaGithub, FaLinkedin, FaFilePdf } from "react-icons/fa";
 
 
 function Hero(){
@@ -152,7 +152,59 @@ Contact Me
 </a>
 
 
+
+<a
+href="/Ananya_K_Resume.pdf"
+target="_blank"
+rel="noopener noreferrer"
+className="
+flex
+items-center
+gap-3
+px-7
+py-4
+rounded-full
+border
+border-cyan-400
+text-cyan-400
+hover:bg-cyan-400
+hover:text-black
+transition
+"
+>
+
+View Resume
+
+<FaFilePdf/>
+
+</a>
+
+<a
+href="/resume/Ananya_K_Resume.pdf"
+download="Ananya_K_Resume.pdf"
+className="
+flex
+items-center
+gap-3
+px-7
+py-4
+rounded-full
+border
+border-white/20
+text-white
+hover:border-cyan-400
+hover:text-cyan-400
+transition
+"
+>
+
+Download Resume
+
+<FaFilePdf/>
+
+</a>
 </div>
+
 
 
 
@@ -172,7 +224,8 @@ className="
 text-2xl
 hover:text-cyan-400
 transition
-">
+"
+>
 
 <FaGithub/>
 
@@ -188,7 +241,8 @@ className="
 text-2xl
 hover:text-cyan-400
 transition
-">
+"
+>
 
 <FaLinkedin/>
 
@@ -200,6 +254,7 @@ transition
 
 
 </motion.div>
+
 
 
 
