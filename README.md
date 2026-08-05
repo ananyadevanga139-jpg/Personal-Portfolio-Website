@@ -1,177 +1,215 @@
-# Ananya K - Portfolio Website 🚀
+# 🌐 Ananya K - Personal Portfolio Website
 
-A modern and responsive personal portfolio website showcasing my projects, technical skills, and software development journey.
+<p align="center">
 
-Built with a futuristic UI design, smooth animations, and a clean developer-focused experience.
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=22D3EE&center=true&vCenter=true&width=700&lines=Ananya+K+Portfolio;Full+Stack+%26+AI+Developer;Building+Modern+Web+Applications"/>
+
+</p>
+
+
+<p align="center">
+
+A modern, responsive, and interactive personal portfolio website designed to showcase my skills, projects, and experience in Full Stack Development and Artificial Intelligence.
+
+</p>
+
 
 ---
 
-## 🌐 Live Demo
+# 🌐 Live Demo
 
-🔗 Portfolio:
+🚀 Portfolio Website:
+
 https://personal-portfolio-website-r80y3p6a0-ananya-3073.vercel.app
 
----
-
-## ✨ Features
-
-- Modern responsive portfolio design
-- Futuristic animated background
-- Interactive hero section
-- Categorized technical skills showcase
-- Project showcase with images
-- Smooth animations and transitions
-- Contact section with social links
-- Mobile-friendly UI
-- Resume integration ready
 
 ---
 
-## 🛠️ Tech Stack
+# ✨ Features
 
-### Frontend
-
-- React.js
-- TypeScript
-- Tailwind CSS
-- Vite
-- Framer Motion
-- React Icons
-
-### Tools
-
-- Git
-- GitHub
-- Vercel
-
----
-
-## 📂 Featured Projects
-
-### 🤖 AI Task Management System
-
-An AI-powered task management application that helps users create, organize, and track tasks with secure authentication and intelligent workflow management.
-
-**Technologies:**
-
-- React.js
-- TypeScript
-- Tailwind CSS
-- Node.js
-- Express.js
-- PostgreSQL
-- JWT Authentication
+✅ Modern futuristic UI design  
+✅ Responsive design for all devices  
+✅ Animated hero section  
+✅ Interactive skills showcase  
+✅ Project showcase section  
+✅ Smooth scrolling navigation  
+✅ Contact section  
+✅ Resume integration  
+✅ Fast and optimized performance  
 
 
 ---
 
-### 🌱 AgroPredict - Crop Recommendation System
-
-A machine learning-based agriculture application that recommends suitable crops based on soil and environmental conditions.
-
-**Technologies:**
-
-- Python
-- Flask
-- Machine Learning
-- Scikit-learn
-- Pickle
+# 🛠️ Tech Stack
 
 
----
-
-### 🏥 Multiple Disease Prediction System
-
-An AI-based healthcare prediction system that analyzes medical data and predicts multiple diseases using machine learning models.
-
-**Technologies:**
-
-- Python
-- Flask
-- TensorFlow
-- Keras
-- OpenCV
-- Scikit-learn
+## 🎨 Frontend Development
 
 
----
+<p>
 
-## 💻 Skills
+<img src="https://skillicons.dev/icons?i=react,typescript,javascript,html,css,tailwind,vite"/>
 
-### Frontend Development
+</p>
+
+
+Technologies:
 
 - React.js
 - TypeScript
 - JavaScript
+- Tailwind CSS
 - HTML5
 - CSS3
-- Tailwind CSS
-
-
-### Backend Development
-
-- Node.js
-- Express.js
-- Python
-- Flask
-- Java
-
-
-### Database & Tools
-
-- PostgreSQL
-- MongoDB
-- Git
-- Docker
-
-
-### AI & Machine Learning
-
-- TensorFlow
-- Keras
-- OpenCV
-- Machine Learning Models
-- AI Integration
+- Vite
 
 
 ---
 
-## 📸 Portfolio Preview
+## 🎬 UI & Animation
 
-The website includes:
 
-- Hero section
-- Skills showcase
-- Project gallery
-- About section
-- Contact section
+Technologies:
+
+- Framer Motion
+- Modern CSS Animations
+- Responsive UI Components
 
 
 ---
 
-## 📬 Connect With Me
+## ⚙️ Tools
 
-### GitHub
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel"/>
+
+</p>
+
+
+---
+
+# 🚀 Installation & Setup
+
+
+## Clone Repository
+
+```bash
+git clone https://github.com/ananyadevanga139-jpg/Personal-Portfolio-Website.git
+Navigate to Project
+cd Personal-Portfolio-Website
+Install Dependencies
+npm install
+Run Development Server
+npm run dev
+
+Application runs on:
+
+http://localhost:5173
+📂 Project Structure
+Personal-Portfolio-Website
+
+│
+├── public
+│   ├── images
+│   └── assets
+│
+├── src
+│
+│   ├── components
+│   │
+│   ├── sections
+│   │
+│   ├── assets
+│   │
+│   ├── App.tsx
+│   │
+│   └── main.tsx
+│
+├── package.json
+│
+├── vite.config.ts
+│
+└── README.md
+📌 Website Sections
+👋 Hero Section
+Personal introduction
+Developer branding
+Animated background
+Call-to-action buttons
+🛠️ Skills Section
+
+Showcases:
+
+Frontend Technologies
+Backend Technologies
+AI & Machine Learning Skills
+Development Tools
+🚀 Projects Section
+
+Featured projects:
+
+🤖 AI Task Management System
+
+Full-stack AI-powered task management application.
+
+🌱 AgroPredict
+
+Machine learning-based crop recommendation system.
+
+🏥 Multiple Disease Prediction System
+
+AI-based healthcare prediction system.
+
+📸 Screenshots
+
+Add portfolio screenshots:
+
+screenshots/
+
+├── home.png
+├── skills.png
+├── projects.png
+└── contact.png
+🚀 Deployment
+
+Deployed using:
+
+<p> <img src="https://skillicons.dev/icons?i=vercel"/> </p>
+
+Live Deployment:
+
+https://personal-portfolio-website-r80y3p6a0-ananya-3073.vercel.app
+
+🎯 Future Enhancements
+
+🚀 Add blog section
+🚀 Add project filtering
+🚀 Add dark/light theme switch
+🚀 Add animations improvements
+🚀 Add downloadable resume
+🚀 Add CMS for dynamic projects
+
+👩‍💻 Author
+Ananya K
+
+Full Stack & AI Developer
+
+Connect With Me
+
+GitHub:
 
 https://github.com/ananyadevanga139-jpg
 
-
-### LinkedIn
+LinkedIn:
 
 https://www.linkedin.com/in/ananya-k-741310325/
 
+Portfolio:
 
-### Email
+https://personal-portfolio-website-r80y3p6a0-ananya-3073.vercel.app
 
-ananyadevanga139@gmail.com
+⭐ Support
 
-
----
-
-## 📄 License
-
-This project is created for personal portfolio and professional showcase purposes.
-
----
-
-⭐ If you like this portfolio, feel free to explore my projects and connect with me!
+If you like this portfolio, consider giving it a star on GitHub.
